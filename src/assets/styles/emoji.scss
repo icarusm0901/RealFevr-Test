@@ -1,0 +1,46 @@
+  
+.add-content {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  padding: 0 2em;
+  height: calc(100vh - 90px);
+  max-width: 1400px;
+
+  .emoji {
+    font-size: 3rem;
+    margin: 1em 1em;
+
+    span {
+      font-size: 4rem;
+    }
+  }
+
+  .datepicker {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 1em;
+    
+    .react-date-picker__inputGroup__input {
+      color: white;
+    }
+
+    .react-date-picker__inputGroup__divider, .react-date-picker__inputGroup__leadingZero {
+      color: white;
+    }
+
+    .react-date-picker__button svg {
+      stroke: white;
+    }
+
+    .react-calendar__month-view__weekdays {
+      font-size: 0.75rem;
+    }
+
+    .react-calendar__navigation {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+  
+.calendar-content {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: center;
+  column-gap: 2em;
+  padding: 0 2em;
+  height: calc(100vh - 90px);
+  max-width: 1400px;
+}
